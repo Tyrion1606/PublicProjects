@@ -1,8 +1,10 @@
 package my.learningDataStructures;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args){
-        testCircularList();
+        testBinaryTree();
     }
 
     // PILHA
@@ -147,5 +149,28 @@ public class Main {
 
         }
 
+    }
+
+    //ARVORE BINARIA
+    public static void testBinaryTree(){
+        Random randomGenerator = new Random();
+        BinaryTree<Integer> minhaArvore = new BinaryTree<Integer>();
+
+        minhaArvore.insert(13);
+        minhaArvore.insert(10);
+        minhaArvore.insert(25);
+        minhaArvore.insert(2);
+        minhaArvore.insert(12);
+        minhaArvore.insert(20);
+        minhaArvore.insert(31);
+        minhaArvore.insert(29);
+
+        /*
+        for (int j = 0 ; j < 10 ; j++){
+            minhaArvore.insert(randomGenerator.nextInt(100));
+         }*/
+        minhaArvore.displayInOrder();
+        minhaArvore.displayPreOrder();
+        minhaArvore.displayPosOrder();
     }
 }
