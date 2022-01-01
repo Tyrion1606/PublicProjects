@@ -15,7 +15,7 @@ public class Account implements AccountInterface{
     protected Account(String clientName, String clientCPF) {
         this.client = new Client(clientName, clientCPF, this);
         client.addAccount(this);
-        this.ID = Bank.getAccounts().size();
+        this.ID = Bank.getccAccounts().size();
         this.value = 0;
     }
 
