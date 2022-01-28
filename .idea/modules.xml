@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PublicProjects.iml" filepath="$PROJECT_DIR$/PublicProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jwt/spring-boot-jwt.iml" filepath="$PROJECT_DIR$/spring-boot-jwt/spring-boot-jwt.iml" />
     </modules>
   </component>
 </project>
